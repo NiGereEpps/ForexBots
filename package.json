@@ -1,0 +1,23 @@
+{
+  "name": "capstone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "web": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "hogan-express": "^0.5.2",
+    "stopword": "^1.0.6",
+    "twit": "^2.2.11"
+  },
+  "engines": {
+    "node": "14.15.5"
+  }
+
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <title>{{title}}</title>
+    <meta name="description" content="Ni'Gere's Forex Trading Bots Results and Twitter Currency WordCloud">
+    <meta name="author" content="Ni'Gere Epps">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="og:title" content="NE Forex Bots">
+    <meta name="og:description" content="Forex Trading Bots Results and Twitter Currency WordCloud">
+    <meta name="og:image" content="images/favicon.png">
+    <meta name="og:site_name" content="NE Forex Bots">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1> Trading Bots & Twitter WordClouds</h1>
+    <h2> Currently Running Bots</h2>
+    <button class="FxBtn">XAUUSD</button>
+    <button class="FxBtn">GBPUSD</button>
+    <button class="FxBtn">EURJPY</button>
+    <button class="FxBtn">EURGBP</button>
+    <h2> Retired Bots</h2>
+    <button class="FxBtn retired">EURUSD</button>
+    <button class="FxBtn retired">AUDUSD</button>
+    <button class="FxBtn retired">USDCAD</button>
+    <button class="FxBtn retired">USDJPY</button>
+    <h2> Current Balance Chart </h2>
+    <img src="images/DetailedStatement.gif" alt="Current Balance Chart"> <br>
+    <a class="BalBtn" href="images/DetailedStatement.htm" target="_blank" rel="noopener noreferrer">View Full Statement</a>
+    <div id="FxOutput"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js"></script>
+    <script src="js/d3.layout.cloud.js"></script>
+    <script src="js/wordcloud.js"></script>
+</body>
